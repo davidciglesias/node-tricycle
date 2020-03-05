@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "node": true,
+        "es6": true
+    }, 
+    "settings": {
+        "import/no-unresolved": "off"
+    },
+    "parser": "typescript-eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    }
+}

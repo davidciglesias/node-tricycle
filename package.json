@@ -1,0 +1,34 @@
+{
+  "name": "tricycle",
+  "version": "0.1.0",
+  "description": "A simply node tutorial result.",
+  "main": "src/base/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/base/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidciglesias/node-tricycle.git"
+  },
+  "keywords": [
+    "node",
+    "tutorial"
+  ],
+  "author": "David Cámara Iglesias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidciglesias/node-tricycle/issues"
+  },
+  "homepage": "https://github.com/davidciglesias/node-tricycle#readme",
+  "dependencies": {
+    "@types/node": "^10.12.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-plugin-import": "^2.14.0",
+    "typescript-eslint-parser": "^21.0.1"
+  }
+}
